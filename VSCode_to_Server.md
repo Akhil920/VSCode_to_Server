@@ -68,7 +68,7 @@ git push
 ```
 
 
-    *   Other useful commands
+Other useful commands
         1. cd <foldername> - Opens up the given folder
         2. cd .. - To return to 1 folder back
         3. cd ..\.. - To return to 2 folders back
