@@ -79,4 +79,5 @@ git push
         8. cat > - Creates a new file under the given folder (syntax: cat >foldername\filename)
         9. rm: To remove files from the repository (Syntax: rm <foldername\filename>)
         10. mv: To move all the files under a specified folder (syntax: mv <foldername>*)
+        11. Clone: When you create new repository in the Git server, you would now need to clone the same into VSCode. For this, go to Server and click on New option on top of the list of repositories and after giving the repository name and description, click on Create Repository. Once you create repository, get into this folder and copy the SSH link in the Code dropdown. Now, go to VSCode and type `Git Clone` and paste the SSH link that you copied from Server.
         
