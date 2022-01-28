@@ -1,3 +1,7 @@
+**Introduction**: This file guides you as to how do we navigate to VS Code from Command prompt and upon changes to the files in the VS code, how do we ensure the changes reflect in the git server. 
+
+Here're the steps: 
+
 1. Open Command prompt by using the shortcut `Windows+R`
 
 2. Type the command keyword as below
@@ -6,16 +10,18 @@ cmd
 ```
 
 3. The above action will take you to the root folder in your local machine
+
 4. Go to the folder where you saved the git repositories with the below command
 ```
 cd <foldername/structure>
 ```
 
-5. Type the `code` keyword to open the folder structure in VSCode
+5. Type the `code` keyword (followed by the foldername) to open the folder structure in VSCode
 ```
 Code <FolderName/Structure>
 ```
 6. The above step will open your folder in VSCode application
+
 7. Once you get into VSCode application, you are required to: 
    7.1: Pull the server data into your local machine using 'Pull' command and 
    7.2: check if the data present in the Git Server matches with you local reporitory (in your machine) by using the below `status` command
@@ -27,8 +33,11 @@ git status
 ls
 ```
 9. Get into the intended file by using the shortcut `Ctrl+P`
+
 10. Type the file name that you want to edit and click `Enter`
+
 11. Make all the necessary changes and save using `Ctrl+s`
+
 12. To view the modified/created files/directories, us the below command
 ```
 git status
