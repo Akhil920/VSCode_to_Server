@@ -1,5 +1,7 @@
 **Introduction**: This file guides you as to how do we navigate to VS Code from Command prompt and upon changes to the files in the VS code, how do we ensure the changes reflect in the git server. 
 
+**What is GitHub**: GitHub is a cloud-based server and code hosting space for version control and it lets you and others work together on projects from anywhere.
+
 Here're the steps: 
 
 1. Open Command prompt by using the shortcut `Windows+R`
